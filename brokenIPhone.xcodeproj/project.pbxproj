@@ -13,6 +13,12 @@
 		95515ABC23E4208B00BA6FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95515ABB23E4208B00BA6FFA /* Assets.xcassets */; };
 		95515ABF23E4208B00BA6FFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95515ABE23E4208B00BA6FFA /* Preview Assets.xcassets */; };
 		95515AC223E4208B00BA6FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95515AC023E4208B00BA6FFA /* LaunchScreen.storyboard */; };
+		95515ACC23E4210500BA6FFA /* broken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95515ACB23E4210500BA6FFA /* broken.swift */; };
+		95515ACE23E4211B00BA6FFA /* insideL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95515ACD23E4211B00BA6FFA /* insideL.swift */; };
+		95515AD023E4214D00BA6FFA /* insideD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95515ACF23E4214D00BA6FFA /* insideD.swift */; };
+		95515AD223E43F6300BA6FFA /* motions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95515AD123E43F6300BA6FFA /* motions.swift */; };
+		95515AD423E448F800BA6FFA /* wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95515AD323E448F800BA6FFA /* wallpaper.swift */; };
+		95515AD623E44A4800BA6FFA /* brokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95515AD523E44A4800BA6FFA /* brokenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		95515ABE23E4208B00BA6FFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95515AC123E4208B00BA6FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95515AC323E4208B00BA6FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95515ACB23E4210500BA6FFA /* broken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = broken.swift; sourceTree = "<group>"; };
+		95515ACD23E4211B00BA6FFA /* insideL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insideL.swift; sourceTree = "<group>"; };
+		95515ACF23E4214D00BA6FFA /* insideD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insideD.swift; sourceTree = "<group>"; };
+		95515AD123E43F6300BA6FFA /* motions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motions.swift; sourceTree = "<group>"; };
+		95515AD323E448F800BA6FFA /* wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wallpaper.swift; sourceTree = "<group>"; };
+		95515AD523E44A4800BA6FFA /* brokenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brokenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				95515AC023E4208B00BA6FFA /* LaunchScreen.storyboard */,
 				95515AC323E4208B00BA6FFA /* Info.plist */,
 				95515ABD23E4208B00BA6FFA /* Preview Content */,
+				95515ACB23E4210500BA6FFA /* broken.swift */,
+				95515ACD23E4211B00BA6FFA /* insideL.swift */,
+				95515ACF23E4214D00BA6FFA /* insideD.swift */,
+				95515AD123E43F6300BA6FFA /* motions.swift */,
+				95515AD323E448F800BA6FFA /* wallpaper.swift */,
+				95515AD523E44A4800BA6FFA /* brokenView.swift */,
 			);
 			path = brokenIPhone;
 			sourceTree = "<group>";
@@ -146,8 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95515ACE23E4211B00BA6FFA /* insideL.swift in Sources */,
+				95515AD623E44A4800BA6FFA /* brokenView.swift in Sources */,
+				95515ACC23E4210500BA6FFA /* broken.swift in Sources */,
+				95515AD423E448F800BA6FFA /* wallpaper.swift in Sources */,
+				95515AD023E4214D00BA6FFA /* insideD.swift in Sources */,
 				95515AB623E4208900BA6FFA /* AppDelegate.swift in Sources */,
 				95515AB823E4208900BA6FFA /* SceneDelegate.swift in Sources */,
+				95515AD223E43F6300BA6FFA /* motions.swift in Sources */,
 				95515ABA23E4208900BA6FFA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
